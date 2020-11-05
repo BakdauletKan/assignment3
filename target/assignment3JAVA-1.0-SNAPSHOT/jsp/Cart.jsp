@@ -4,7 +4,7 @@
 <%@include file="header.jsp"%>
 <%@include file="navbar.jsp"%>
 
-<div class="list">
+<div>
     <div class="container">
         <div style="display: flex; flex-direction: row; justify-content: space-between;">
             <h1>Cart</h1>

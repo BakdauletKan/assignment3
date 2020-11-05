@@ -5,7 +5,7 @@
 <%@include file="navbar.jsp"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<div class="list">
+<div>
     <div class="container">
         <div style="display: flex; flex-direction: row; justify-content: space-between;">
             <h1>Sport</h1>

@@ -28,7 +28,8 @@ public class Logout extends HttpServlet {
         sessions.removeAttribute("users");
         sessions.removeAttribute("categories");
 
-        request.getRequestDispatcher("index.jsp").forward(request, response);
+        response.sendRedirect(getServletContext().getContextPath() + "/index.jsp");
+//        request.getRequestDispatcher("index.jsp").forward(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
